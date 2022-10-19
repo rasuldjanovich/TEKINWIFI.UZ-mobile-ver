@@ -1,0 +1,1 @@
+# TEKINWIFI.UZ-mobile-ver
