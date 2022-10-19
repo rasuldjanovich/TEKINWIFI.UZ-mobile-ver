@@ -1,0 +1,49 @@
+@media (min-width: 0) and (max-width: 499px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .banner {
+        background: #ccc;
+    }
+    .banner_content {
+        padding: 16px;
+        max-width: 500px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    .banner_text {
+        flex-grow: 1;
+        line-height: 1.4;
+        font-family: 'Inter';
+        font-weight: 400;
+        color: #000000;
+    }
+
+    button {
+        background: none;
+        border: none;
+        font-size: 18px;
+    }
+    img{
+        margin-top: 1.5rem;
+        width: 100%;
+    }
+    p {
+        margin-left: 5px;
+        font-size: 17px;
+        font-family: 'Inter';
+    }
+}
+
+@media (min-width: 500px) {
+    .container {
+        display: none;
+    }
+}

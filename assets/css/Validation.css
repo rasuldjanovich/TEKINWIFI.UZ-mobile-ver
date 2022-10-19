@@ -1,0 +1,102 @@
+@media (min-width: 0) and (max-width: 499px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%;
+        -webkit-tap-highlight-color: transparent;
+    } 
+
+    .content p{
+        width: 80%;
+        margin: 1rem auto;
+        color: #000;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .container_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 82%;
+        margin-top: 20px;
+    }
+    
+    .flex_container {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 5rem auto 0.3rem;
+    }
+
+    .flex_container input[type="text"] {
+        outline: none;
+        width: 4.5rem;
+        height: 3rem;
+        background: #D9D9D9;
+        border: 1px solid #D9D9D9;
+        font-size: 17px;
+        padding: 0.5rem;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 600;
+        line-height: 17px;
+    }
+
+    .flex_container input[type="number"] {
+        outline: none;
+        width: 14.5rem;
+        height: 3rem;
+        background: #D9D9D9;
+        border: 1px solid #D9D9D9;
+        font-size: 17px;
+        padding: 0.5rem;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 600;
+        line-height: 17px;
+    }
+
+    p {
+        margin-left: 9rem;
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 15px;
+        color: #919191;
+    }
+
+    .btn_container{
+        display: flex;
+        justify-content: center;
+    }
+
+    button {
+        width: 16.5rem;
+        height: 3rem;
+        margin-top: 4rem;
+        background: #9EE4D8;
+        border-radius: 21px;
+        border: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 17px;
+        text-align: center;
+        color: #000000;
+    }
+}
